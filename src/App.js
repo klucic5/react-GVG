@@ -9,7 +9,7 @@ export default class ProfilePage extends React.Component {
 <NavBar />
         <h1>Moja prva React stranica</h1>
         <p>Zovem se XY i idem u GVG!</p>
-        <img src="https://content.codecademy.com/courses/React/react_photo-monkeyselfie.jpg" />
+        <img src="./images/slika1.jpg" />
       </div>
     );
   }
