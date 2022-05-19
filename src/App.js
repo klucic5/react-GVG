@@ -5,12 +5,17 @@ import { AiDef } from './AiDef.js';
 export default class ProfilePage extends React.Component {
   render() {
     return (
-      <div>
+      <div class="parent">
 <NavBar />
-        <h1>Moja prva React stranica</h1>
-        <p>Zovem se XY i idem u GVG!</p>
-        <img src="https://i1.wp.com/www.srednja.hr/app/uploads/2013/05/Gimnazija-Velika-Gorica.jpg?w=1024&ssl=1" width="200px"/>
+        <h1><a name="home">Umjetna inteligencija</a></h1>
+       
+        <img src="https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201_960_720.png" width="200px"/>
+      <div class="child">
 <AiDef />
+</div>
+<div class="child">
+<AiDef />
+</div>
 <NavBar />
       </div>
       
